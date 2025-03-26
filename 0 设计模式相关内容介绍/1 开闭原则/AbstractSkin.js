@@ -1,0 +1,3 @@
+class AbstractSkin {
+}
+export { AbstractSkin };
