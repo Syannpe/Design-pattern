@@ -12,4 +12,3 @@ class Client {
     }
 }
 Client.main();
-;
