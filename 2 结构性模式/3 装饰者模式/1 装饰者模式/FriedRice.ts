@@ -1,0 +1,17 @@
+/**
+ * @version v1.0
+ * @ClassNmae: FriedRice
+ * @Description: 炒饭，具体构件角色
+ * @Author: SYANNPE
+ */
+import FastFood from "./FastFood";
+
+export default class FriedRice extends FastFood {
+    public constructor() {
+        super(10, "炒饭");
+    }
+
+    public cost(): number {
+        return this.price;
+    }
+}
