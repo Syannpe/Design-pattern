@@ -1,4 +1,5 @@
 export default class Director {
+    _builder;
     constructor(builder) {
         this._builder = builder;
     }

@@ -5,6 +5,8 @@
  * @Author: Syannpe
  */
 export default class Bike {
+    _frame;
+    _seat;
     get frame() {
         return this._frame;
     }
