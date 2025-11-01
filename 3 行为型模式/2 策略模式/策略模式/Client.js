@@ -13,10 +13,10 @@ export default class Client {
         let salesMan = new SalesMan(new StrategyA());
         salesMan.salesManShow();
         console.log("-------------------------");
-        salesMan = new SalesMan(new StrategyB());
+        salesMan.strategy = new StrategyB();
         salesMan.salesManShow();
         console.log("-------------------------");
-        salesMan = new SalesMan(new StrategyC());
+        salesMan.strategy = new StrategyC();
         salesMan.salesManShow();
     }
 }
